@@ -1,0 +1,18 @@
+# editors, IDES
+.idea
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+.sublime*
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*~
+*.swp
+*.swo
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride

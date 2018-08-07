@@ -1,0 +1,35 @@
+# editorconfig.org
+
+root = true
+
+[*]
+max_line_length = 100
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{ini,py,rst}]
+indent_style = space
+indent_size = 4
+
+[*.py]
+multi_line_output = 3
+
+[*.{css,html,js,json,scss,xml,yml,yaml}]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{diff,patch}]
+trim_trailing_whitespace = false
+
+[*.sh]
+indent_style = tab
+
+[Makefile]
+indent_style = tab
